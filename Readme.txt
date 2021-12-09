@@ -55,7 +55,7 @@ example:
 
 For transfer learning across different networks, please list all networks using the above format into one file. To clarify, for features you want to transfer across different networks, please use the same feature prefix(e.g., feature_cnt_ratio_1) as well as edge and triad features. Otherwise please use different feature prefix.
 
-3. output     explaining of output
+3. output     explaining of output hhhhhh
 The accuracy, precision, recall, and F1-score are calculated in each iteration, over both the sets of All nodes and Unlabeled nodes.
 Note that the result is only valid for binary classification. OpenCRF will take the label of the first line as "positive" label.
 "pred.txt" gives the prediction result of all the nodes (including known nodes).
